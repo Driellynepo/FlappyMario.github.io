@@ -2,13 +2,11 @@
 
 ![gif minigame](https://github.com/Driellynepo/GOGPG/assets/141869927/025db4e5-0c6f-44de-8613-2970ad1a1c19)
 ## Sobre o projeto 
-Teste seus reflexos! Mario Jump trata-se de um minigame simples em que consiste fazer o personagem pular sobre os obstraculos acionando a tecla espaço, se o obstaculo for atingido... game over! O jogo será encerrado. Clique em restart game e tente novamente.
+Teste seus reflexos com o Mario Jump! Este é um minigame simples onde seu objetivo é fazer o personagem pular sobre os obstáculos usando a tecla de espaço para alcançar a maior pontuação possível. Você pode verificar sua pontuação no canto superior esquerdo da tela. Se você atingir um obstáculo, o jogo será encerrado, mas não se preocupe! Você pode clicar em "Restart Game" e tentar novamente. 
 
 ## Como executar
 Para experimentar o minigame visite: 
 https://driellynepo.github.io/MarioJump.github.io/</br>
-Ou acesse o QR Code abaixo: </br>
-![qrcode](https://github.com/Driellynepo/GOGPG/assets/141869927/0ba4b7cf-a8b7-4e54-b61b-b32ec060dd21)
 
 ## Densenvolvido com:
 
