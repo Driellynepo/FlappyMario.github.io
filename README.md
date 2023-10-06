@@ -1,16 +1,14 @@
-# FlappyMario 🍄
+# Mario Jump 🍄
 
-![Vídeo sem título ‐ Feito com o Clipchamp](https://github.com/Driellynepo/FlappyMario/assets/141869927/e976b57a-8d05-405b-a655-de2c328ad0ab)
+![gif minigame](https://github.com/Driellynepo/GOGPG/assets/141869927/025db4e5-0c6f-44de-8613-2970ad1a1c19)
 ## Sobre o projeto 
-Teste seus reflexos! Flappy Mario trata-se de um minigame simples em que consiste fazer o personagem pular sobre os obstraculos acionando qualuqer tecla, se o obstaculo for atingido... game over! O jogo será encerrado.
+Teste seus reflexos! Mario Jump trata-se de um minigame simples em que consiste fazer o personagem pular sobre os obstraculos acionando a tecla espaço, se o obstaculo for atingido... game over! O jogo será encerrado. Clique em restart game e tente novamente.
 
 ## Como executar
 Para experimentar o minigame visite: 
-https://driellynepo.github.io/FlappyMario.github.io/</br>
-
-![image](https://github.com/Driellynepo/FlappyMario.github.io/assets/141869927/4c24ad77-e261-4a5b-aa23-34e0d4c26b66)
-
-
+https://driellynepo.github.io/MarioJump.github.io/</br>
+Ou acesse o QR Code abaixo: </br>
+![qrcode](https://github.com/Driellynepo/GOGPG/assets/141869927/0ba4b7cf-a8b7-4e54-b61b-b32ec060dd21)
 
 ## Densenvolvido com:
 
