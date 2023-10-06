@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,25 +9,111 @@
 .game-board {
     width: 100%;
     height: 100vh;
-    border-bottom: 15px solid #238d35;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(#87ceeb, #e0f6ff);
+    background: linear-gradient(#6dc1e2, #e0f6ff);
+}
+
+.ground {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    background-image: url(../images/ground.jpg);
+    background-repeat: round;
+}
+
+.logo {
+    position: absolute;
+    width: 500px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: logo-animation 2s infinite alternate;
+}
+
+.instruction {
+    position: absolute;
+    top: 63%;
+    left: 38%;
+    font-family: 'Press Start 2P', monospace;
+}
+
+.start-button {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eeea11;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: 4px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 2;
+    font-family: 'Press Start 2P', monospace;
+}
+
+.start-button:hover {
+    background-color: #000000;
+    color: #eeea11;
+    border: 4px solid #eeea11;
+}
+
+.score {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Press Start 2P', monospace;
+}
+
+.restart-button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eeea11;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: 4px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 2;
+    font-family: 'Press Start 2P', monospace;
+}
+
+.restart-button:hover {
+    background-color: #000000;
+    color: #eeea11;
+    border: 4px solid #eeea11;
+}
+
+.game-over {
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .pipe {
     position: absolute;
-    bottom: 0;
+    bottom: 80px;
+    right: -80px;
     width: 80px;
     height: 80px;
-    animation: pipe-animation 1.5s infinite linear;
+    animation: none;
 }
 
 .mario {
     width: 150px;
     position: absolute;
-    bottom: 0;
+    bottom: 80px;
 }
 
 .jump {
@@ -34,8 +122,25 @@
 
 .clouds {
     position: absolute;
+    margin-top: 100px;
     width: 550px;
     animation: clouds-animation 20s infinite linear;
+}
+
+@keyframes ground-animation {
+    100% {
+        background-position-x: -112px;
+    }
+}
+
+@keyframes logo-animation {
+    0% {
+        transform: translate(-50%, -50%) scale(1.0);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
 }
 
 @keyframes pipe-animation {
@@ -50,23 +155,23 @@
 
 @keyframes jump-mario {
     0% {
-        bottom: 0;
+        bottom: 80px;
     }
 
     30% {
-        bottom: 190px;
+        bottom: 270px;
     }
 
     50% {
-        bottom: 190px;
+        bottom: 270px;
     }
 
     70% {
-        bottom: 190px;
+        bottom: 270px;
     }
 
     100% {
-        bottom: 0;
+        bottom: 80;
     }
 }
 
